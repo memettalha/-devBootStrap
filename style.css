@@ -1,0 +1,224 @@
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    width:100%;
+}
+.baslik{
+    background-color:#2C3E50;
+    padding-top:2.2rem;
+    padding-bottom:2.2rem;
+    
+}
+.baslik1{
+    text-decoration:none;
+    color:white;
+    font-size:1.75rem;
+    margin:70px;
+    width:400px;
+    
+}
+
+#right{
+    margin-right:4rem;
+    top:1rem;
+}
+.sag{
+    float:right;
+    color:white;
+    text-decoration:none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.sag:hover{
+    color:#1ABC9C;
+}
+
+
+.header{
+    padding-bottom:6rem;
+    color: #1ABC9C;
+}
+#container{
+    background-color:#1ABC9C;
+    box-sizing: border-box;
+
+}
+
+#image{
+    width:15rem;
+    text-align:center;
+    margin-left:40%;
+    margin-right:50%;
+}
+
+#profil{
+    text-align:center;
+    color:white;
+    font-size: 4rem;
+    box-sizing:border-box;
+    margin-bottom: 0;
+
+}
+
+#profession{
+    text-align:center;
+    color:white;
+    font-size:1.5rem;
+    box-sizing: border-box;
+}
+
+#portfolio{
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom: 100px;
+
+}
+
+#port{
+    text-align:center;
+    font-size:3rem;
+   line-height: 2.5rem; 
+}  
+
+.resim{
+    width:330px;
+    margin:10px;
+    box-sizing:border-box;
+    border-radius:20px;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+#alt{
+    background-color:#1ABC9C;
+   
+}
+
+#about{
+    color:white;
+    text-align:center;
+    font-size:3rem;
+    padding-top: 4rem;
+    padding-bottom: 0;
+}
+
+.prf{
+    display:flex;
+    width:100%;
+   background-color: #1ABC9C;
+   margin-top:0;
+   box-sizing: border-box;
+   padding-bottom:0;
+
+
+}
+
+
+
+#p1{
+    font-size:1.25rem;
+    font-weight:400;
+    box-sizing:border-box;
+    text-align: right;
+    width:400px;
+    padding-right:70px ;
+
+}
+
+#p2{
+    font-size:1.25rem;
+    font-weight:400;
+    width:380px;
+    text-align:left;
+}
+
+.free{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.but{
+    background-color:#1ABC9C;
+    color:white;
+    border:2px solid white;
+    font-size:1.25rem;
+    padding:1rem 1.75rem;
+    border-radius:10px;
+    margin-bottom: 5rem;
+    margin-top: 10px;
+}
+
+.but:hover{
+    background-color: white;
+    color: black;
+    cursor:pointer;
+}
+
+footer{
+    background-color: #2C3E50;
+    display:flex;
+}
+
+.fut{
+    width:20%;
+    margin-left:10%;
+    margin-top:4rem;
+    color:white;
+}
+
+
+
+.f1{
+    
+}
+
+.p3{
+    font-size: 20px;
+
+}
+
+#f3{
+    margin-right:50px;
+}
+
+#alticizgi{
+    color: #1ABC9C;
+
+}
+
+#isim{
+    background-color:#1A252F;
+    color:white;
+    padding: 30px;
+    text-align: center;
+}
+
+.portfolio-item mx-auto{
+    margin:0;
+    padding: 0;
+
+}
+
+.row p,h4{
+    color:white;
+}
+
+.row{
+    display:flex;
+
+}
+
+footer{
+    display:flex;
+}
+
+
+.img-fluid{
+    border-radius:20px;
+}
